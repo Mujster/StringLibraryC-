@@ -85,7 +85,7 @@ public:
 	}
 	bool empty()
 	{
-		if (str = nullptr)
+		if (str == nullptr)
 			return true;
 		else
 			return false;

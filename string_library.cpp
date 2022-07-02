@@ -23,7 +23,7 @@ public:
 	int str_len(char* s)
 	{
 		int count = 0;
-		while (s[count])
+		while (s[count]!='\0')
 			count++;
 		return count;
 	}
